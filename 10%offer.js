@@ -13,4 +13,3 @@ for(let val of items){
     console.log(`value after offer= ${items[i]}`);
     i++;
 }
-
