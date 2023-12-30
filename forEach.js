@@ -1,11 +1,11 @@
 let arr = [1, 2, 3, 4, 5, 6];
 
 // arr.forEach((val) => {
-//   console.log(val * val);
+//   console.log(val);
 // });
 
-let calsSquare = (num) => {
+let calCSquare = (num) => {
   console.log(num * num);
 };
 
-arr.forEach(calsSquare); //higher order function
+arr.forEach(calCSquare); //higher order function

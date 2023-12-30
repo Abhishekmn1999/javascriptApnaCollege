@@ -11,3 +11,4 @@ console.log(condi1 && condi2);
 //    T           F           F
 //    F           T           F
 //    F           F           F
+

@@ -19,4 +19,4 @@ const countVowel = (str) =>{
         return count;
       }
 
-console.log(countVowel("Abhishek "));
+console.log(countVowel("Abhishek"));
