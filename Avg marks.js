@@ -5,7 +5,7 @@ for(let i=0;i<marks.length;i++){
     sum=sum+marks[i];
 }
  
-// for(let val of marks){
+// for(let val of marks){    //for of loop
 //     sum = sum+val;
 // }
 
