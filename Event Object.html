@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Event Object Example</title>
+</head>
+<body>
+
+<button id="myButton">Click Me!</button>
+
+<script>
+  const myButton = document.getElementById("myButton");
+
+  myButton.addEventListener("click", function(event) {
+    // Access properties of the event object
+    console.log("Event type:", event.type);
+    console.log("Target element:", event.target);
+    console.log("Mouse coordinates:", event.clientX, event.clientY);
+
+    // You can also use event.preventDefault() to prevent the default behavior of the event
+    event.preventDefault();
+  });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Keyup Event Example</title>
+</head>
+<body>
+
+<input type="text" id="myInput" placeholder="Release a key">
+
+<script>
+  const myInput = document.getElementById("myInput");
+
+  myInput.addEventListener("keydown", function(event) {
+    console.log("Key down:", event.key);
+  });
+
+  myInput.addEventListener("keyup", function(event) {
+    console.log("Key released:", event.key);
+  });
+  myInput.addEventListener("keypress", function(event) {
+    console.log("Key press:", event.key);
+  });
+</script>
+
+</body>
+</html>
